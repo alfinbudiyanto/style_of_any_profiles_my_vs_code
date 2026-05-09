@@ -1,0 +1,132 @@
+{
+    /* ============================== EXTENSIONS ============================== */
+    /* --- Better Comments --- */
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": false,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+
+    /* --- GitLens --- */
+    "gitlens.graph.minimap.additionalTypes": [
+        "stashes",
+        "pullRequests",
+        "remoteBranches",
+        "localBranches"
+    ],
+    "gitlens.graph.minimap.enabled": false,
+
+    /* ============================== VS CODE SETTINGS ============================== */
+    /* --- Editor --- */
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "underline",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "JetBrain Mono NL, Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.lineHeight": 33,
+    "editor.minimap.maxColumn": 90,
+    "editor.minimap.renderCharacters": false,
+    "editor.mouseWheelZoom": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+
+    /* --- Explorer --- */
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 1,
+
+    /* --- Workbench --- */
+    "workbench.colorTheme": "Mayukai Reversal",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+
+    /* --- Miscellaneous --- */
+    "chat.extensionUnification.enabled": false,
+    "emmet.triggerExpansionOnTab": false,
+    "git.autofetch": true,
+
+    /* ============================== DEFAULTS ============================== */
+    /* --- Python Defaults --- */
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.fixAll": ["source.unusedImports"],
+
+    /* --- Editor Defaults --- */
+    "editor.defaultFormatter": "charliermarsh.ruff",
+
+    /* ============================== TERMINAL (LINUX) ============================== */
+    "terminal.integrated.profiles.linux": {
+        "sh": {
+            "path": "/usr/bin/sh",
+            "icon": "terminal"
+        },
+        "bash": {
+            "path": "/usr/bin/bash",
+            "icon": "terminal-bash"
+        },
+        "tmux": {
+            "path": "/usr/bin/tmux",
+            "icon": "terminal-tmux"
+        },
+        "zsh": {
+            "path": "/usr/bin/zsh",
+            "icon": "terminal-ubuntu"
+        },
+        "fish": {
+            "path": "/usr/bin/fish",
+            "icon": "terminal-git-bash"
+        }
+    },
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.shellIntegration.enabled": true
+}
